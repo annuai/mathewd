@@ -13,7 +13,7 @@
 	<div>
 	<br>
 	<div class="max-w-screen-sm">
-	<small>mathew is an artist and designer, currently based in bangalore, in the south of India. his main interests are experimental methods of storytelling that weave narratives through metaphysical concepts, using poetry and film as basic yet versatile tools. inspired by some sort of autonomous organic thought process discovered in himself - as well texts enriched in wisdom, such as the upanishads - he is eager to unravel the idea of a metaphor. <br>
+	<small>mathew is an artist and designer, currently based in bangalore. his main interests are experimental methods of storytelling that weave narratives through metaphysical concepts, using poetry and film as basic yet versatile tools. inspired by some sort of autonomous organic thought process discovered in himself - as well texts enriched in wisdom, such as the upanishads - he is eager to unravel the idea of a metaphor. <br>
 	<br>
 	for collaborations, contact mathew.d6@gmail.com</small>
 	<br><br>
