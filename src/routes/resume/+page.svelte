@@ -10,7 +10,7 @@
 <br>
 <small>to see resume, send an email to mathew.d6@gmail.com with details.</small><br>
 <br>
-<BackHome />
+<BackHome value="return" />
 <br>
 <br>
 </div>

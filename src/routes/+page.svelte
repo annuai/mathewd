@@ -221,8 +221,11 @@
 			<br>
 			<Splide aria-label="My Favorite Images" options={ {
 				rewind: true,
+				rewindSpeed:1,
 				autoplay: true,
 				interval: 3000,
+				speed:1000,
+				rewindSpeed:1,
 				pagination: false,
 			  } }>
 				<SplideSlide>
@@ -429,8 +432,8 @@
 			   <style type="text/css">
 				   .st0{fill:none; stroke-width:6.5;stroke-miterlimit:10;}
 			   </style>
-			   <line class="st0" x1="32.9" x2="32.9" y1="75" y2="12.5" stroke="#fff"/>
-			   <polyline class="st0" points="9.4 31.9 33 8.3 57.4 32.7" stroke="#fff"/>
+			   <line class="st0" x1="32.9" x2="32.9" y1="75" y2="12.5" stroke="#858585"/>
+			   <polyline class="st0" points="9.4 31.9 33 8.3 57.4 32.7" stroke="#858585"/>
 			   </svg>
 
 			   

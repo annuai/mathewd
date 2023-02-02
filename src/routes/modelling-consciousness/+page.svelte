@@ -36,6 +36,7 @@
 
 	<Splide aria-label="My Favorite Images" options={ {
 		rewind: true,
+		rewindSpeed:1,
 		autoplay: true,
 		interval: 3000,
 		pagination: false,
