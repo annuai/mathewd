@@ -19,7 +19,7 @@
 		</small>
 
 		<br><br>
-	for collaborations, contact <br><a href="mailto:mathew.d6@gmail.com">mathew.d6@gmail.com</a></small>
+		for collaborations & commisions, contact <br><a href="mailto:mathew.d6@gmail.com">mathew.d6@gmail.com</a></small>
 	<br><br>
 	<small><a href="/resume" rel="history">resume<ArrowRight color="#FFFFFF" /></a><br><br>
 	
