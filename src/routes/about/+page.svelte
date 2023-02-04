@@ -13,9 +13,13 @@
 	<div>
 	<br>
 	<div class="max-w-screen-sm">
-	<small>mathew is an artist and designer, currently based in bangalore. his main interests are experimental methods of storytelling that weave narratives through metaphysical concepts, using poetry and film as basic yet versatile tools. inspired by some sort of autonomous organic thought process discovered in himself - as well texts enriched in wisdom, such as the upanishads - he is eager to unravel the idea of a metaphor. <br>
-	<br>
-	for collaborations, contact mathew.d6@gmail.com</small>
+	<small>this is the website of mathew dominic.
+		<br><br>
+		<small>he is an artist and designer, currently based in bangalore. his main interests are experimental methods of storytelling that weave narratives through metaphysical concepts, using poetry and film as basic yet versatile tools. inspired by some sort of autonomous organic thought process discovered in himself - as well texts enriched in wisdom, such as the upanishads - he is eager to unravel the idea of a metaphor. 
+		</small>
+
+		<br><br>
+	for collaborations, contact <br><a href="mailto:mathew.d6@gmail.com">mathew.d6@gmail.com</a></small>
 	<br><br>
 	<small><a href="/resume" rel="history">resume<ArrowRight color="#FFFFFF" /></a><br><br>
 	
