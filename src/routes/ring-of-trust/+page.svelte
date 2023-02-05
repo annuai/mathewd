@@ -28,7 +28,7 @@ this was the reason why a unifying element of form or texture was diffciult to i
 <br>
 my idea was to create a separate element that can be integrated into the design of all the products. this element would be uniform wherever it is applied. the company, Remidio, creates imaging devices for ophthalmologists - in simple terms: cameras for eye doctors. lens design and optical innovation are core to the R&amp;D process. the circle is found everywhere in the parts - light travels in metal cylinders, and the lenses are circular. the part that comes in contact with the patient is a cricle. so the element is a circle, a metal ring that goes on the devices.<br>
 <br>
-the color was selected after finding the closest metal match to the brand pantone color,. I worked with several anodizing specialists to find the right shade, and to ensure color consistency across batches.<br>
+the color was selected after finding the closest metal match to the brand pantone color. I worked with several anodizing specialists to find the right shade, and to ensure color consistency across batches.<br>
 <br>
 then I set to redesign all the products to integrate the ring of trust into them.<br>
 </small><br>
