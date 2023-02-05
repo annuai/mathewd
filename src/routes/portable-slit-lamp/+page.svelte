@@ -36,6 +36,7 @@ the device is designed around the human hand, and a large number of physical ite
 <br>
 <Splide aria-label="My Favorite Images" options={ {
 	rewind: true,
+	rewindSpeed:1,
 	autoplay: true,
 	interval: 3000,
 	pagination: false,

@@ -31,24 +31,25 @@
 <br>
 <Splide aria-label="My Favorite Images" options={ {
 	rewind: true,
+	rewindSpeed:1,
 	autoplay: true,
 	interval: 3000,
 	pagination: false,
   } }>
 	<SplideSlide>
-		<img src="images/floor-living/proto-14.jpg" class="w-full" alt="Image 1"/>
+		<img src="images/floor-living/1.jpg" class="w-full" alt="Image 1"/>
 		<div class="text-center gallery-caption mx-0">initial models for the pieces.</div>
 	</SplideSlide>
 	<SplideSlide>
-		<img src="images/floor-living/2.gif" class="w-full" alt="Image 1"/>
-		<div class="text-center gallery-caption mx-0">postures were studied and then photographed to make the graphics for the pieces. this is the seiza (japanese) or vajrasana (sanskrit) position.</div>
+		<img src="images/floor-living/2.gif" class="w-full" alt="Image 2"/>
+		<div class="text-center gallery-caption mx-0">postures were studied and then photographed to make the graphics for the pieces. this is the lotus position.</div>
 	</SplideSlide>
 	<SplideSlide>
-		<img src="images/floor-living/color-options-for-final-pieces.jpg" class="w-full" alt="Image 1"/>
-		<div class="text-center gallery-caption mx-0">color options for the final screen printed pieces.</div>
+		<img src="images/floor-living/3.jpg" class="w-full" alt="Image 3"/>
+		<div class="text-center gallery-caption mx-0">screen printing color options</div>
 	</SplideSlide>
 	<SplideSlide>
-		<img src="images/floor-living/IMG_6961.jpg" class="w-full" alt="Image 1"/>
+		<img src="images/floor-living/4.jpg" class="w-full" alt="Image 4"/>
 		<div class="text-center gallery-caption mx-0">a few people were invited to be observed on how they take to sitting on the floor. these were people from all age groups above 20 years. they were asked to sit for an hour.</div>
 	</SplideSlide>
 </Splide>
