@@ -439,7 +439,11 @@
 			  <div>
 				<div>
 				  <br>
-				  <small>after eleven years of existence, remidio rebranded itself. I created a video to capture the essence of what changed in this process.</small>
+				  <small>after eleven years of existence, remidio rebranded itself. I created a video to capture the essence of what changed in this process.
+<br><br> project credits. music: wonderland / vo mix: harikiran menon 
+<br> words: mathew + anand sivraman / illustrations: vasudev mg <br>US photos: colin key
+
+</small>
 				  
 				  
 				  <br>
