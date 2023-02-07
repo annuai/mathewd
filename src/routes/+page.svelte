@@ -201,7 +201,7 @@
 			  <div>
 				<div>
 				  <br>
-				  <small>this film is inspired from the idea that everything in creation starts from a thought: the thought, unseen, is the birthplace of that which is seen. with this idea, the story of what life was like before life itself began is mused upon.</small>
+				  <small>life exists on multiple scales. these are all relative to our own sense of scale - the human scale. there is the macro world, and there is the micro world. before my beginning is an experimental film that kicked off an exploration into the possibility of using macro-micro scales of perspective to explain complex metaphysical concepts.</small>
 				  
 				  <small class="onBeforeMyBeginningMoreText" style="display:none;"><br><br>
 				  this film is inspired from the idea that everything in creation starts from a thought: the thought, unseen, is the birthplace of that which is seen. with this idea, the story of what life was like before life itself began is mused upon.
