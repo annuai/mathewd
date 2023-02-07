@@ -191,6 +191,7 @@
 			<br>
 			<br>
 		  </div>
+
 		  <div class="one-video" data-aos="slide-up">
 			<div in:fade style="padding:56.25% 0 0 0;position:relative;">
 			  <iframe src="https://player.vimeo.com/video/289932054?h=f6cd31e02c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="before my beginning" class=""></iframe>
@@ -424,6 +425,36 @@
 			  </div>
 			  <hr>
 			</div>
+
+
+
+
+		  <div class="one-video" data-aos="slide-up">
+			<div in:fade style="padding:56.25% 0 0 0;position:relative;">
+			  <iframe src="https://player.vimeo.com/video/635255098?h=f9911dab23&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="remidio / rebrand" class=""></iframe>
+			</div>
+			<div class="text-content px-2 lg:px-0 max-w-screen-sm">
+			  <br>
+			  <h2>remidio / rebrand</h2>
+			  <div>
+				<div>
+				  <br>
+				  <small>after eleven years of existence, remidio rebranded itself. I created a video to capture the essence of what changed in this process.</small>
+				  
+				  
+				  <br>
+				  <br>
+				</small>
+				  <br>
+				</div>
+			  </div>
+			  </div>
+			  <hr>
+		  </div>
+
+
+
+
 
 			<div>
 				<br>
