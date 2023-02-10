@@ -444,7 +444,6 @@
 				  
 				  <br>
 				  <br>
-				</small>
 				  <br>
 				</div>
 			  </div>
