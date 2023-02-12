@@ -3,6 +3,7 @@
 	import '@splidejs/svelte-splide/css';
 
 	import BackHome from '$lib/components/BackHome.svelte'
+	import Cusdis from '$lib/components/Cusdis.svelte'
 </script>
 <svelte:head>
 	<title>modelling consciousness - mathew d</title>
@@ -158,7 +159,8 @@
 	<br>
 	** 1. david chalmers, “<i>facing up to the problem of consciousness</i>” (research school of social sciences, australian national university) 1995.<br></small>
 	
-	<br></div></div></div><br>
-	<hr><br>
+	<br></div></div></div>
+	<Cusdis pageId ="modelling-consciousness" pageTitle="modelling consciousness" />
+	<br>
 	<BackHome />
 	 <br>

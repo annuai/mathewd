@@ -3,6 +3,10 @@
 	import '@splidejs/svelte-splide/css';
 	
 	import BackHome from '$lib/components/BackHome.svelte'
+
+	import { page } from '$app/stores';
+	import Cusdis from '$lib/components/Cusdis.svelte'
+	// import Cusdis from "$lib/components/svelte-cusdis";
 </script>
 <svelte:head>
 	<title>floor living - mathew d</title>
@@ -54,7 +58,24 @@
 	</SplideSlide>
 </Splide>
 <br>
-<hr>
+<Cusdis pageId ="floor-living" pageTitle="floor living" />
+<!-- <script async defer src="http://localhost:5173/cusdis.es.js"></script>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="b9e510b6-80d9-4d40-b519-e1fbde56524f"
+  data-page-id="floor-living"
+  data-page-url="floor-living"
+  data-page-title="floor living"
+></div> -->
+<!-- <Cusdis
+ attrs = {{
+     appId: "b9e510b6-80d9-4d40-b519-e1fbde56524f",
+     pageId: "floor-living",
+     pageUrl: "https://mathewd.com/",
+     pageTitle: "floor living",
+	 theme: "light"
+ }}
+/> -->
 <br>
 <BackHome />
 <br>

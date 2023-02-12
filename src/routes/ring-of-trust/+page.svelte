@@ -3,6 +3,7 @@
 	import '@splidejs/svelte-splide/css';
 
 	import BackHome from '$lib/components/BackHome.svelte'
+	import Cusdis from '$lib/components/Cusdis.svelte'
 </script>
 <svelte:head>
 	<title>ring of trust - mathew d</title>
@@ -70,8 +71,7 @@ then I set to redesign all the products to integrate the ring of trust into them
 </Splide>
 
 <br>
-<hr>
-<br>
+<Cusdis pageId ="ring-of-trust" pageTitle="ring of trust" />
 <br>
 <BackHome />
 <br>

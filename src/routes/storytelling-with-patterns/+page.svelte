@@ -4,6 +4,7 @@
 
 	import Image from '$lib/components/Image.svelte'
 	import BackHome from '$lib/components/BackHome.svelte'
+	import Cusdis from '$lib/components/Cusdis.svelte'
 </script>
 <svelte:head>
 	<title>storytelling with patterns - mathew d</title>
@@ -190,9 +191,7 @@
 	</div> -->
 	
 	<br>
-	<br>
-	<br>
-	<hr>
+	<Cusdis pageId ="storytelling-with-patterns" pageTitle="storytelling with patterns" />
 	<br>
 	
 	<BackHome />

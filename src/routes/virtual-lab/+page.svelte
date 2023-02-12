@@ -1,6 +1,7 @@
 <script>
 	import Image from '$lib/components/Image.svelte'
 	import BackHome from '$lib/components/BackHome.svelte'
+	import Cusdis from '$lib/components/Cusdis.svelte'
 </script>
 <svelte:head>
 	<title>virtual lab - mathew d</title>
@@ -37,8 +38,8 @@ deployed by arun mahadevan<br></small>
 </div>
 </div>
 <br>
+<Cusdis pageId ="virtual-lab" pageTitle="virtual lab" />
 <br>
-<hr><br>
 <BackHome />
  <br>
 </div>
