@@ -42,6 +42,11 @@
 		jQuery.noConflict(true);
 		// window.jQuery = jq;
 		jQuery(".all").click(function() {
+			AOS.init({
+								// Global settings:
+								disable: false
+							});
+							AOS.refresh();
 			console.log("All");
 							jQuery([document.documentElement, document.body]).animate({
 										  scrollTop: jQuery("#menu-main").offset().top
@@ -68,6 +73,10 @@
 						  
 						  //DESIGN
 						  jQuery(".design").click(function() {
+							AOS.init({
+								// Global settings:
+								disable: true
+							});
 							console.log("Design");
 								  jQuery([document.documentElement, document.body]).animate({
 										  scrollTop: jQuery("#menu-main").offset().top
@@ -97,6 +106,10 @@
 						  
 						  //FILM+VIDEO
 						  jQuery(".film-video").click(function() {
+							AOS.init({
+								// Global settings:
+								disable: true
+							});
 							console.log("Film");
 								  jQuery([document.documentElement, document.body]).animate({
 										  scrollTop: jQuery("#menu-main").offset().top
@@ -124,6 +137,10 @@
 						  
 						  //POETRY
 						  jQuery(".poetry").click(function() {
+							AOS.init({
+								// Global settings:
+								disable: true
+							});
 							console.log("Poetry");
 							jQuery([document.documentElement, document.body]).animate({
 										  scrollTop: jQuery("#menu-main").offset().top
