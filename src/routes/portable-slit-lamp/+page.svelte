@@ -3,7 +3,7 @@
 	import '@splidejs/svelte-splide/css';
 
 	import BackHome from '$lib/components/BackHome.svelte'
-	import Cusdis from '$lib/components/Cusdis.svelte'
+	import CusdisComments from '$lib/components/CusdisComments.svelte'
 </script>
 <svelte:head>
 	<title>portable slit lamp - mathew d</title>
@@ -115,7 +115,7 @@ the device is designed around the human hand, and a large number of physical ite
 </div> -->
 
 	<br>
-	<Cusdis pageId ="portable-slit-lamp" pageTitle="portable slit lamp" />
+	<CusdisComments pageId ="portable-slit-lamp" pageTitle="portable slit lamp" />
 <br>
 <BackHome />
 <br>

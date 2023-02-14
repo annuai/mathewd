@@ -2,7 +2,7 @@
     import { onMount, createEventDispatcher, afterUpdate, onDestroy } from "svelte";
     import { browser } from "$app/environment";
     export let attrs;
-    export let lang = undefined;
+    // export let lang = undefined;
 
     const dispatch = createEventDispatcher();
 
@@ -26,73 +26,73 @@
     onMount(async ()=>{
 
         window.CUSDIS = {};
-let e;
+        let e;
 
-function t(t) {
-    return e || (e = document.createElement("iframe"), function(e, t) {
-        const s = window.matchMedia("(prefers-color-scheme: dark)"),
-            d = d => {
-                try {
-                    const i = JSON.parse(d.data);
-                    if ("cusdis" === i.from) switch (i.event) {
-                        case "onload":
-                            "auto" === t.dataset.theme && n("setTheme", s.matches ? "dark" : "light");
-                            break;
-                        case "resize":
-                            e.style.height = i.data + "px"
-                    }
-                } catch (i) {}
-            };
+        function t(t) {
+            return e || (e = document.createElement("iframe"), function(e, t) {
+                const s = window.matchMedia("(prefers-color-scheme: dark)"),
+                    d = d => {
+                        try {
+                            const i = JSON.parse(d.data);
+                            if ("cusdis" === i.from) switch (i.event) {
+                                case "onload":
+                                    "auto" === t.dataset.theme && n("setTheme", s.matches ? "dark" : "light");
+                                    break;
+                                case "resize":
+                                    e.style.height = i.data + "px"
+                            }
+                        } catch (i) {}
+                    };
 
-        function i(e) {
-            const s = e.matches;
-            "auto" === t.dataset.theme && n("setTheme", s ? "dark" : "light")
+                function i(e) {
+                    const s = e.matches;
+                    "auto" === t.dataset.theme && n("setTheme", s ? "dark" : "light")
+                }
+                window.addEventListener("message", d), s.addEventListener("change", i)
+
+            }(e, t)), e.srcdoc = (e => {
+                const t = e.dataset.host || "https://cusdis.com",
+                    n = e.dataset.iframe || `${t}/js/iframe.umd.js`;
+                return `<!DOCTYPE html>\n<html>\n  <head>\n    <link rel="stylesheet" href="${t}/js/style.css">\n <style type="text/css">body{color:#858585;text-transform: lowercase;}.text-gray-500.my-2{color:#fff;}.mr-2.font-medium{color:#fff;} .px-1 button{color:#000;}.my-8{display:none;} .text-center.text-gray-500.text-xs{display:none;}
+                .w-full.p-2.border.border-gray-200.bg-transparent{border:1px solid #858585 !important;}
+                </style>    <base target="_parent" />\n    <link>\n    <script>\n      window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)}\n      window.__DATA__ = ${JSON.stringify(e.dataset)}\n    <\/script>\n    <style>\n      :root {\n        color-scheme: light;\n      }\n    </style>\n  </head>\n  <body>\n    <div id="root"></div>\n    <script src="${n}" type="module">\n      \n    <\/script>\n  </body>\n</html>`
+            })(t), e.style.width = "100%", e.style.border = "0", e
         }
-        window.addEventListener("message", d), s.addEventListener("change", i)
 
-    }(e, t)), e.srcdoc = (e => {
-        const t = e.dataset.host || "https://cusdis.com",
-            n = e.dataset.iframe || `${t}/js/iframe.umd.js`;
-        return `<!DOCTYPE html>\n<html>\n  <head>\n    <link rel="stylesheet" href="${t}/js/style.css">\n <style type="text/css">body{color:#858585;text-transform: lowercase;}.text-gray-500.my-2{color:#fff;}.mr-2.font-medium{color:#fff;} .px-1 button{color:#000;}.my-8{display:none;} .text-center.text-gray-500.text-xs{display:none;}
-        .w-full.p-2.border.border-gray-200.bg-transparent{border:1px solid #858585 !important;}
-        </style>    <base target="_parent" />\n    <link>\n    <script>\n      window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)}\n      window.__DATA__ = ${JSON.stringify(e.dataset)}\n    <\/script>\n    <style>\n      :root {\n        color-scheme: light;\n      }\n    </style>\n  </head>\n  <body>\n    <div id="root"></div>\n    <script src="${n}" type="module">\n      \n    <\/script>\n  </body>\n</html>`
-    })(t), e.style.width = "100%", e.style.border = "0", e
-}
+        function n(t, n) {
+            e && e.contentWindow.postMessage(JSON.stringify({
+                from: "cusdis",
+                event: t,
+                data: n
+            }))
+        }
 
-function n(t, n) {
-    e && e.contentWindow.postMessage(JSON.stringify({
-        from: "cusdis",
-        event: t,
-        data: n
-    }))
-}
-
-function s(e) {
-    if (e) {
-        e.innerHTML = "";
-        const n = t(e);
-        e.appendChild(n)
-    }
-}
-
-function d() {
-    let e;
-    window.cusdisElementId ? e = document.querySelector(`#${window.cusdisElementId}`) : document.querySelector("#cusdis_thread") ? e = document.querySelector("#cusdis_thread") : document.querySelector("#cusdis") && (console.warn("id `cusdis` is deprecated. Please use `cusdis_thread` instead"), e = document.querySelector("#cusdis")), !0 === window.CUSDIS_PREVENT_INITIAL_RENDER || e && s(e)
-}
-window.renderCusdis = s, window.CUSDIS.renderTo = s, window.CUSDIS.setTheme = function(e) {
-    n("setTheme", e)
-}, window.CUSDIS.initial = d, d();
-        
-        if (lang){
-            let url = `https://cusdis.com/js/widget/lang/${lang}.js`;
-            let langScript = document.querySelector(`script[src="${url}"]`);
-            if (!langScript){
-                langScript = document.createElement("script");
-                langScript.setAttribute("defer",true);
-                langScript.src = url;
-                document.querySelector("head").appendChild(langScript);
+        function s(e) {
+            if (e) {
+                e.innerHTML = "";
+                const n = t(e);
+                e.appendChild(n)
             }
         }
+
+        function d() {
+            let e;
+            window.cusdisElementId ? e = document.querySelector(`#${window.cusdisElementId}`) : document.querySelector("#cusdis_thread") ? e = document.querySelector("#cusdis_thread") : document.querySelector("#cusdis") && (console.warn("id `cusdis` is deprecated. Please use `cusdis_thread` instead"), e = document.querySelector("#cusdis")), !0 === window.CUSDIS_PREVENT_INITIAL_RENDER || e && s(e)
+        }
+        window.renderCusdis = s, window.CUSDIS.renderTo = s, window.CUSDIS.setTheme = function(e) {
+            n("setTheme", e)
+        }, window.CUSDIS.initial = d, d();
+        
+        // if (lang){
+        //     let url = `https://cusdis.com/js/widget/lang/${lang}.js`;
+        //     let langScript = document.querySelector(`script[src="${url}"]`);
+        //     if (!langScript){
+        //         langScript = document.createElement("script");
+        //         langScript.setAttribute("defer",true);
+        //         langScript.src = url;
+        //         document.querySelector("head").appendChild(langScript);
+        //     }
+        // }
 
         let url = "/cusdis.es.js";
         let script  = document.querySelector(`script[src="${url}"]`);
@@ -104,6 +104,8 @@ window.renderCusdis = s, window.CUSDIS.renderTo = s, window.CUSDIS.setTheme = fu
             script.addEventListener("load", load);
             document.querySelector("head").appendChild(script);
         }
+
+        load();
     })
 </script>
 

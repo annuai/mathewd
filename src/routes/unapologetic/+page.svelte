@@ -4,7 +4,7 @@
 
 	import Image from '$lib/components/Image.svelte'
 	import BackHome from '$lib/components/BackHome.svelte'
-	import Cusdis from '$lib/components/Cusdis.svelte'
+	import CusdisComments from '$lib/components/CusdisComments.svelte'
 </script>
 <svelte:head>
 	<title>unapologetic automatic - mathew d</title>
@@ -51,7 +51,7 @@
 	{image 25}
 	{image 24} -->
 	</div><br>
-	<Cusdis pageId ="unapologetic" pageTitle="unapologetic" />
+	<CusdisComments pageId ="unapologetic" pageTitle="unapologetic" />
 	<br>
 	<BackHome />
 	<br>

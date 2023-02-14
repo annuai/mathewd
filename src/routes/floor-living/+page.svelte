@@ -5,10 +5,12 @@
 	import BackHome from '$lib/components/BackHome.svelte'
 
 	import { page } from '$app/stores';
-	import Cusdis from '$lib/components/Cusdis.svelte'
-	// import Cusdis from "$lib/components/svelte-cusdis";
+	import CusdisComments from '$lib/components/CusdisComments.svelte'
+	import Cusdis from "$lib/components/svelte-cusdis";
 </script>
+
 <svelte:head>
+	<script async src="/cusdis.es.js"></script>
 	<title>floor living - mathew d</title>
 	<meta name="description" content="floor living - mathew d" />
 </svelte:head>
@@ -58,7 +60,7 @@
 	</SplideSlide>
 </Splide>
 <br>
-<Cusdis pageId ="floor-living" pageTitle="floor living" />
+<CusdisComments pageId ="floor-living" pageTitle="floor living" />
 <!-- <script async defer src="http://localhost:5173/cusdis.es.js"></script>
 <div id="cusdis_thread"
   data-host="https://cusdis.com"

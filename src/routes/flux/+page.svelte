@@ -3,7 +3,7 @@
 	import '@splidejs/svelte-splide/css';
 
 	import BackHome from '$lib/components/BackHome.svelte'
-	import Cusdis from '$lib/components/Cusdis.svelte'
+	import CusdisComments from '$lib/components/CusdisComments.svelte'
 </script>
 <svelte:head>
 	<title>flux - mathew d</title>
@@ -161,7 +161,7 @@
 	</Splide>
 	
 	<br>
-<Cusdis pageId ="flux" pageTitle="flux" />
+<CusdisComments pageId="flux" pageTitle="flux" />
 	<br>
 	<BackHome />
 	 <br>

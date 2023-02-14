@@ -5,6 +5,7 @@
 </script>
 
 <header>
+	<script src="/cusdis.es.js" async defer></script>
 	<!-- <div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />

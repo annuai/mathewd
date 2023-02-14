@@ -22,7 +22,6 @@ function t(t) {
             "auto" === t.dataset.theme && n("setTheme", s ? "dark" : "light")
         }
         window.addEventListener("message", d), s.addEventListener("change", i)
-
     }(e, t)), e.srcdoc = (e => {
         const t = e.dataset.host || "https://cusdis.com",
             n = e.dataset.iframe || `${t}/js/iframe.umd.js`;

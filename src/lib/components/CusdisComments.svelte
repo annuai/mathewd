@@ -15,7 +15,7 @@
 <div class="px-3 lg:pl-0 lg:pr-5">
 <Cusdis
  attrs = {{
-     appId: "b9e510b6-80d9-4d40-b519-e1fbde56524f",
+     appId: "b9a15486-27e3-41a1-b5c3-1410d5ff4348",
      pageId: pageId,
      pageUrl: "https://mathewd.com/"+$page.url.pathname+"",
      pageTitle: pageTitle,
